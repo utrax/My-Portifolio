@@ -1,0 +1,127 @@
+ @import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+
+*{
+	
+	margin:0;
+	padding: 0;
+	box-sizing: border-box;
+	text-decoration: none;
+	outline: none;
+	border:none;
+
+}
+html
+{
+	font-size: 62.5%;
+	overflow-x: hidden;
+
+}
+
+body
+{
+	background: #111;
+	overflow-x: hidden;
+	padding-left: 35rem;
+
+	
+}
+header{
+	position: fixed;
+	top:0; left:0;
+	z-index: 1000;
+	height: 100%;
+	width: 35rem;
+	background:#1a1a1a;
+	display: flex;
+	align-items: center;
+	text-decoration: none;
+	justify-content: center;
+	flex-flow: column;
+	text-align: center;
+	font-family: Lobster, sans-serif;
+}
+header .home img{
+	height: 17rem;
+	width: 17rem;
+	border-radius: 50%;
+	object-fit: cover;
+	margin-bottom: 1rem;
+    border: .7rem solid #9ACD32 ;
+}
+header .home .name
+{
+	font-size: 3.4rem;
+	color: #fff;
+}
+header .home .FED{
+	font-size: 2rem;
+	color:#9ACD32;
+}
+header .navbar ul{
+	list-style: none;
+	padding:1rem 3rem;
+}
+header .navbar ul li a
+{
+	display: block;
+	padding: 1rem;
+	margin:1.5rem 0;
+	background: #333;
+	color: #fff;
+	font-size: 2rem;
+	border-radius: 5rem;
+
+}
+header .navbar ul li a:hover
+{
+	background:#9ACD32;
+}
+
+section{
+	
+	min-height:40vh;
+	min-width: 40vh;
+	padding: 1rem;
+	margin: 200px;
+	text-align: justify;
+
+
+	
+}
+.menu{
+	display:inline-flex;
+	justify-content: center;
+	flex-flow: column;
+	padding: 0 15rem;
+	font-size: 20px;
+
+
+}
+.menu h3{
+	font-size: 40px;
+	color: #FFFF00;
+	font-family: Brush Script MT;
+
+
+}
+.menu h4{
+	font-size: 20px;
+	color:#9ACD32 ;
+	font-family: Lucida Handwriting;
+}
+.menu h1{
+	font-size: 20px;
+	color:#FFFF00;
+	font-family: Lucida Handwriting;
+
+}
+.menu .kh
+{
+	padding: 7rem 3rem;
+	background: #343535;
+	color: #fff;
+	cursor: pointer;
+	margin-top: 1rem;
+	font-size: 2rem;
+	border-radius: 5rem;
+}
